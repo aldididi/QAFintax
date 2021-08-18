@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="43.772" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="43.772" skipped="0" timestamp="2021-08-18 22:40:28" hostname="aldidi - whoami" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/aldidi/Documents/Kuliah/test magang/fintax/fintaxQA/Reports/20210818_224014/New Test Suite/20210818_224014"/>
+         <property name="logFiles" value="/home/aldidi/Documents/Kuliah/test magang/fintax/fintaxQA/Reports/20210818_224014/New Test Suite/20210818_224014/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aldidi - whoami"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 91.0.4472.77"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="sessionId" value="c08bda2679ba7058d997e2c5e157bdbf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/QA" time="43.083" classname="Test Cases/QA" status="PASSED">
+         <system-out><![CDATA[2021-08-18 22:40:28 - [TEST_CASE][PASSED] - Test Cases/QA: Test Cases/QA
+
+2021-08-18 22:40:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-08-18 22:40:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-08-18 22:40:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-08-18 22:40:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-08-18 22:40:31 - [TEST_STEP][PASSED] - navigateToUrl("http://qainterview.pythonanywhere.com/"): Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-08-18 22:40:33 - [MESSAGE][PASSED] - Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-08-18 22:40:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Factoriall/input_The greatest factorial calculator_number"), "2"): Text '2' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:40:34 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:40:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Factoriall/button_Calculate")): Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Factoriall/input_The greatest factorial calculator_number"), "7"): Text '7' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:40:35 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:40:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Factoriall/button_Calculate")): Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Factoriall/input_The greatest factorial calculator_number"), "14"): Text '14' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:40:37 - [MESSAGE][PASSED] - Text '14' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:40:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Factoriall/button_Calculate")): Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Factoriall/input_The greatest factorial calculator_number"), "26"): Text '26' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:40:39 - [MESSAGE][PASSED] - Text '26' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:40:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Factoriall/button_Calculate")): Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Factoriall/input_The greatest factorial calculator_number"), "97"): Text '97' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:40:41 - [MESSAGE][PASSED] - Text '97' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:40:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Factoriall/button_Calculate")): Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Factoriall/input_The greatest factorial calculator_number"), "130"): Text '130' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:40:43 - [MESSAGE][PASSED] - Text '130' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:40:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Factoriall/button_Calculate")): Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Factoriall/input_The greatest factorial calculator_number"), "980"): Text '980' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:40:44 - [MESSAGE][PASSED] - Text '980' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:40:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Factoriall/button_Calculate")): Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Factoriall/input_The greatest factorial calculator_number"), "990"): Text '990' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:40:46 - [MESSAGE][PASSED] - Text '990' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:40:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Factoriall/button_Calculate")): Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Factoriall/button_Calculate")): Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Factoriall/input_The greatest factorial calculator_number"), "1000"): Text '1000' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:40:49 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:40:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Factoriall/button_Calculate")): Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Factoriall/button_Calculate")): Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Factoriall/input_The greatest factorial calculator_number"), "222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"): Text '222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:40:51 - [MESSAGE][PASSED] - Text '222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:40:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Factoriall/button_Calculate")): Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Factoriall/input_The greatest factorial calculator_number"), "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"): Text '0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:40:53 - [MESSAGE][PASSED] - Text '0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:40:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Factoriall/button_Calculate")): Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:40:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Factoriall/a_Terms and Conditions")): Object: 'Object Repository/Page_Factoriall/a_Terms and Conditions' is clicked on
+
+2021-08-18 22:40:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Factoriall/a_Terms and Conditions' is clicked on
+
+2021-08-18 22:40:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Factoriall/a_Privacy")): Object: 'Object Repository/Page_Factoriall/a_Privacy' is clicked on
+
+2021-08-18 22:40:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Factoriall/a_Privacy' is clicked on
+
+2021-08-18 22:40:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Factoriall/a_Qxf2 Services")): Object: 'Object Repository/Page_Factoriall/a_Qxf2 Services' is clicked on
+
+2021-08-18 22:41:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Factoriall/a_Qxf2 Services' is clicked on
+
+2021-08-18 22:41:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Factoriall/input_The greatest factorial calculator_number"), "-2"): Text '-2' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:41:08 - [MESSAGE][PASSED] - Text '-2' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:41:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Factoriall/button_Calculate")): Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:41:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:41:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Factoriall/input_The greatest factorial calculator_number"), "3.7"): Text '3.7' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:41:10 - [MESSAGE][PASSED] - Text '3.7' is set on object 'Object Repository/Page_Factoriall/input_The greatest factorial calculator_number'
+
+2021-08-18 22:41:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Factoriall/button_Calculate")): Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:41:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Factoriall/button_Calculate' is clicked on
+
+2021-08-18 22:41:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Factoriall/body_The greatest factorial calculator     _1937cd")): Object: 'Object Repository/Page_Factoriall/body_The greatest factorial calculator     _1937cd' is clicked on
+
+2021-08-18 22:41:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Factoriall/body_The greatest factorial calculator     _1937cd' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-08-18 22:40:28 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/QA]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
